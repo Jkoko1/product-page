@@ -77,6 +77,10 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid gainsboro;
+    /* background-color: brown; */
 }
 
 .menu .logo{
@@ -88,10 +92,6 @@ body{
     text-decoration: none;
     margin: auto 10px;
     color: grey;
-}
-
-hr{
-    margin: 25px;
 }
 
 .price{
@@ -142,4 +142,14 @@ hr{
 .cart p{
     display: inline;
     color: beige;
+}
+
+.topmenu{
+    display: flex;
+    align-items: center;
+}
+
+.pp{
+    display: flex;
+    align-items: center;
 }
